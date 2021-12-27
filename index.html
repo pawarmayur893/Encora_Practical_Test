@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- jQuery -->
+<script src="Assets/jquery-3.6.0.js"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="Assets/style.css">
+
+    <!-- script -->
+    <script src="Assets/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h3>Title goes here!!!</h3>
+    <div class="container">
+        
+        <div class="img">
+            <img class="container-img" id="img1" src="Assets/Image01.jpg" alt="" onclick="clickimg1()">
+            <p class="answer-para">
+                <div class="sel-ans" id="sel-ans1">  </div>
+                <div class="cor-incor" id="cor-incor1"> </div>
+            </p>
+            <div class="question-popup" id="question1">
+                <img class="img-icon" src="Assets/Question_Icon.png" alt="">
+                <span class="question-text">Q1. Question text goes here...</span>
+                <div class="radio-option">
+                    <input type="radio" name="r1" id="Option1" value="Option1"><label for="Option1"> Option 1</label><br>
+                    <input type="radio" name="r1" id="Option2" value="Option2"><label for="Option2"> Option 2</label><br>
+                    <input type="radio" name="r1" id="Option3" value="Option3"><label for="Option3"> Option 3</label><br>
+                    <input type="radio" name="r1" id="Option4" value="Option4"><label for="Option4"> Option 4</label><br>
+                </div>
+                <input type="button" value="Submite" onclick="displayAnswer1()">
+            </div>
+        </div>
+        
+
+        <div class="img">
+            <img class="container-img" id="img2" src="Assets/Image02.jpg" alt="" onclick="clickimg2()">
+            <p class="answer-para">
+                <div class="sel-ans" id="sel-ans2">  </div>
+                <div class="cor-incor" id="cor-incor2"> </div>
+            </p>
+            <div class="question-popup" id="question2">
+                <img class="img-icon" src="Assets/Question_Icon.png" alt="">
+                <span class="question-text">Q1. Question text goes here...</span>
+                <div class="radio-option">
+                    <input type="radio" name="r2" id="Option1" value="Option1"><label for="Option1"> Option 1</label><br>
+                    <input type="radio" name="r2" id="Option2" value="Option2"><label for="Option2"> Option 2</label><br>
+                    <input type="radio" name="r2" id="Option3" value="Option3"><label for="Option3"> Option 3</label><br>
+                    <input type="radio" name="r2" id="Option4" value="Option4"><label for="Option4"> Option 4</label><br>
+                </div>
+                <input type="button" value="Submite" onclick="displayAnswer2()">
+            </div>
+        </div>
+
+        <div class="greeting">Thank You!!</div>
+    </div>
+    
+</body>
+</html>
